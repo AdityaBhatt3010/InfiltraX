@@ -1,0 +1,5 @@
+Domain Name: example.com
+Registrar: IANA
+Updated Date: 2023-10-01
+Expiration Date: 2028-10-01
+Name Servers: ns1.example.com, ns2.example.com

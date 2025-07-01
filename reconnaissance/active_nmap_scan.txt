@@ -1,0 +1,7 @@
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.4 (protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.6
+139/tcp  open  netbios-ssn Samba smbd 3.X
+445/tcp  open  microsoft-ds Windows 7 Professional 7601 Service Pack 1
+
+OS details: Microsoft Windows 7 Professional SP1
