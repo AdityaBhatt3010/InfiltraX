@@ -1,0 +1,2 @@
+example.com.  3600 IN A 93.184.216.34
+example.com.  3600 IN MX 10 mail.example.com.
