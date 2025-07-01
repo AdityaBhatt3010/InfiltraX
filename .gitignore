@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.env
+.vscode/
+*.pcap
+Pentest_Report.md
+output/
+*.zip
+*.tar.gz
+docker-compose.override.yml

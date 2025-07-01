@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.vscode/
+*.log
+Pentest_Report.md
+*.pcap
+*.zip
+output/
+node_modules/

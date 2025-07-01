@@ -1,0 +1,38 @@
+Starting Docker Build Process...
+
+[+] Building 0.8s (9/9) FINISHED
+ => [internal] load build definition from Dockerfile
+ => [internal] load .dockerignore
+ => [internal] load metadata for docker.io/kalilinux/kali-rolling
+ => [1/5] FROM docker.io/kalilinux/kali-rolling
+ => [2/5] RUN apt-get update && apt-get install -y ...
+ => [3/5] WORKDIR /opt/ethical-intrusions
+ => [4/5] COPY . .
+ => [5/5] RUN pip3 install -r requirements.txt || true
+ => exporting to image
+ => => writing image sha256:<image_id>
+ => => naming to docker.io/library/ethical-intrusions
+
+Docker Image Built Successfully
+
+Created local 'output' directory for container bind mount
+
+Running Docker Container...
+
+[*] Passive Recon: Gathering WHOIS and DNS info
+[+] Done! Output saved to passive_whois.txt & passive_dns.txt
+
+[*] Active Recon using Nmap...
+[+] Nmap Scan Complete. Saved to active_nmap_scan.txt
+
+[*] Running Nmap Vuln Scan...
+[+] Nmap Vuln Scan Saved to nmap_vuln.txt
+
+[*] OpenVAS Scanner Stub - Use GVM CLI or GUI for detailed results.
+Refer: https://greenbone.github.io/docs/
+
+[*] Grabbing creds from Windows machine...
+
+[*] Report Generated: Pentest_Report.md
+
+Container exited cleanly
